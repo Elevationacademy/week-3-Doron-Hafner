@@ -16,7 +16,7 @@
     {{#each user}}
     <div class="user" id=`${{{id.name}}}`>
         <div class="name">{{name.first}}   {{name.last}}</div>
-        <div class="email">{{email}} </div>
+        <a href="mailto:{{email}}">{{email}}</a>
     </div>
 
     {{/each}}
