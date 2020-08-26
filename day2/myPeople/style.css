@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+#users {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    /* align-items: center; */
+    background-color: #22a6b3;
+    
+}
+.user {
+    /* display: grid; */
+    
+    background-color: #badc58;
+}
+.user:hover{
+    background-color: #6ab04c;
+    transition-duration: 0.5s;
+}
+/* .email {
+    
+} */
